@@ -1,0 +1,12 @@
+var_density: Gaussian
+seed_no: 1
+## Problem parameters
+x_dim: 2
+## VI-specific parameters
+xi_sampling: "normal_symmetric"
+ref_batch_size: 1000
+mu_init_scalar: 0.0
+sigma_init_scalar: 0.70710678
+epsilon: 1.e-6
+## Logging parameters
+np_save: False
